@@ -1,4 +1,5 @@
-# 🖨️ Printf Project
+<!-- # 🖨️ Printf Project -->
+<h1 align="center">🖨️ Printf Project</h1>
 
 ## 📖 Overview
 This project is a recreation of the famous C library function, `printf`. 

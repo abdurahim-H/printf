@@ -1,20 +1,32 @@
-# **Custom Printf Function**
+# 🖨️ Printf Project
 
-This repository contains a custom implementation of the `printf` function in C. 
+## 📖 Overview
+This project is a recreation of the famous C library function, `printf`. 
+The goal is to understand the inner workings of this type of function, and recreate it.
 
-## **Usage**
-
-Here's an example of how to use the `ft_printf` function:
-
+## 🛠 Usage
 ```c
-int main() {
-	ft_printf("This is an example: %d + %d = %d\n", 5, 3, 5 + 3);
-	return 0;
-}
+int ft_printf(const char *format, ...);
 
-In this example, ft_printf is called with a format string and three integer arguments. 
-The format string contains three format specifiers (%d), which correspond to the three integer arguments. 
-The ft_printf function prints the string "This is an example: 5 + 3 = 8\n" to the standard output.
+* format is a string that contains text to be written to stdout. 
+It can optionally contain embedded format specifiers that starts with a % character. 
+These format specifiers get replaced by the values specified 
+in subsequent additional arguments and formatted as requested.
+
+* ... represents the variable number of additional arguments.
+
+* The function returns the number of characters printed, or a negative value if an error occurs.
+
+📝 Example
+
+#include "ft_printf.h"
+
+int main(void)
+{
+    ft_printf("Hello, %s!\n", "World");
+    return 0;
+}
+This example prints "Hello, World!" to the console.
 
 int main() {
 	int num = 42;
@@ -38,7 +50,7 @@ In this example, ft_printf is called with a format string and a string argument.
 The format string contains a format specifier (%s), which corresponds to the string argument. 
 The ft_printf function prints the string "This is a string: Hello, world!\n" to the standard output.
 
-# Format Specifiers
+📚 Supported Format Specifiers
 The ft_printf function supports the following format specifiers:
 
 * %d or %i: Print an integer.

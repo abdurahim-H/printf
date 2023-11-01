@@ -17,14 +17,14 @@ In this example, custom_printf is called with a format string and three integer 
 # Format Specifiers
 The custom_printf function supports the following format specifiers:
 
-*%d or %i: Print an integer.*
-*%s: Print a string.*
-*%c: Print a character.*
-*%p: Print a pointer.*
-*%u: Print an unsigned integer.*
-*%x: Print an unsigned integer in hexadecimal (lowercase).*
-*%X: Print an unsigned integer in hexadecimal (uppercase).*
-*%%: Print a percent sign.*
+*%d or %i: Print an integer.
+%s: Print a string.
+%c: Print a character.
+%p: Print a pointer.
+%u: Print an unsigned integer.
+%x: Print an unsigned integer in hexadecimal (lowercase).
+%X: Print an unsigned integer in hexadecimal (uppercase).
+%%: Print a percent sign.*
 
 # Error Handling
 

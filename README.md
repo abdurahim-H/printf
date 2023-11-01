@@ -8,7 +8,9 @@ The goal is to understand the inner workings of this type of function, and recre
 ```c
 int ft_printf(const char *format, ...);
 
-* format is a string that contains text to be written to stdout.																																													 It can optionally contain embedded format specifiers that starts with a % character. 																																								These format specifiers get replaced by the values specified 																																														 in subsequent additional arguments and formatted as requested.
+* format is a string that contains text to be written to stdout.                                                                                                                                                                                       It can optionally contain embedded format specifiers that starts with a % character. 
+These format specifiers get replaced by the values specified 
+in subsequent additional arguments and formatted as requested.
 
 * ... represents the variable number of additional arguments.
 

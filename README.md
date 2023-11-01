@@ -12,7 +12,9 @@ int main() {
 	return 0;
 }
 
-In this example, custom_printf is called with a format string and three integer arguments. The format string contains three format specifiers (%d), which correspond to the three integer arguments. The custom_printf function prints the string "This is an example: 5 + 3 = 8\n" to the standard output.
+In this example, custom_printf is called with a format string and three integer arguments. 
+The format string contains three format specifiers (%d), which correspond to the three integer arguments. 
+The custom_printf function prints the string "This is an example: 5 + 3 = 8\n" to the standard output.
 
 # Format Specifiers
 The custom_printf function supports the following format specifiers:
@@ -28,6 +30,7 @@ The custom_printf function supports the following format specifiers:
 
 # Error Handling
 
-If a function call within custom_printf fails, it returns -1 to indicate an error. Otherwise, it returns the total number of characters printed.
+If a function call within custom_printf fails, it returns -1 to indicate an error. 
+Otherwise, it returns the total number of characters printed.
 
 ```
